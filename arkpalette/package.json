@@ -27,5 +27,9 @@
     "eslint-config-next": "15.3.2",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "description": "A Next.js web application that helps users find the nearest matching colors from a predefined palette. Users can input up to 5 colors and get suggestions for the closest matching colors from a curated list.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
