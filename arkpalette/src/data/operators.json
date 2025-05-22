@@ -1,0 +1,2114 @@
+{
+    "u0031u0032u0046": {
+        "name": "12F",
+        "unicode": "u0031u0032u0046",
+        "index": 20,
+        "hex": "#a6bbc7"
+    },
+    "u0043u0061u0073u0074u006cu0065u002du0033": {
+        "name": "Castle-3",
+        "unicode": "u0043u0061u0073u0074u006cu0065u002du0033",
+        "index": 90,
+        "hex": "#bcbe39"
+    },
+    "u0043u004fu004eu0046u0045u0053u0053u002du0034u0037": {
+        "name": "CONFESS-47",
+        "unicode": "u0043u004fu004eu0046u0045u0053u0053u002du0034u0037",
+        "index": 480,
+        "hex": "#a78f7b"
+    },
+    "u0046u0052u0049u0053u0054u004fu004eu002du0033": {
+        "name": "FRISTON-3",
+        "unicode": "u0046u0052u0049u0053u0054u004fu004eu002du0033",
+        "index": 270,
+        "hex": "#d17022"
+    },
+    "u004cu0061u006eu0063u0065u0074u002du0032": {
+        "name": "Lancet-2",
+        "unicode": "u004cu0061u006eu0063u0065u0074u002du0032",
+        "index": 70,
+        "hex": "#c2beb5"
+    },
+    "u004du006fu006eu0033u0074u0072": {
+        "name": "Mon3tr",
+        "unicode": "u004du006fu006eu0033u0074u0072",
+        "index": 470,
+        "hex": "#91b03e"
+    },
+    "u0050u0068u006fu006eu006fu0052u002du0030": {
+        "name": "PhonoR-0",
+        "unicode": "u0050u0068u006fu006eu006fu0052u002du0030",
+        "index": 480,
+        "hex": "#7e3031"
+    },
+    "u0054u0048u0052u004du002du0045u0058": {
+        "name": "THRM-EX",
+        "unicode": "u0054u0048u0052u004du002du0045u0058",
+        "index": 20,
+        "hex": "#847861"
+    },
+    "u0055u002du004fu0066u0066u0069u0063u0069u0061u006c": {
+        "name": "U-Official",
+        "unicode": "u0055u002du004fu0066u0066u0069u0063u0069u0061u006c",
+        "index": 250,
+        "hex": "#dc9bac"
+    },
+    "u0057": {
+        "name": "W",
+        "unicode": "u0057",
+        "index": 10,
+        "hex": "#c73b21"
+    },
+    "u4e07u9877": {
+        "name": "万顷",
+        "unicode": "u4e07u9877",
+        "index": 360,
+        "hex": "#d9b397"
+    },
+    "u4e34u5149": {
+        "name": "临光",
+        "unicode": "u4e34u5149",
+        "index": 90,
+        "hex": "#da9140"
+    },
+    "u4e4cu5c14u6bd4u5b89": {
+        "name": "乌尔比安",
+        "unicode": "u4e4cu5c14u6bd4u5b89",
+        "index": 400,
+        "hex": "#3668a3"
+    },
+    "u4e4cu6709": {
+        "name": "乌有",
+        "unicode": "u4e4cu6709",
+        "index": 210,
+        "hex": "#71879d"
+    },
+    "u4e91u8ff9": {
+        "name": "云迹",
+        "unicode": "u4e91u8ff9",
+        "index": 440,
+        "hex": "#9289b3"
+    },
+    "u4e9au53f6": {
+        "name": "亚叶",
+        "unicode": "u4e9au53f6",
+        "index": 390,
+        "hex": "#d4d060"
+    },
+    "u4ec7u767d": {
+        "name": "仇白",
+        "unicode": "u4ec7u767d",
+        "index": 240,
+        "hex": "#c4525e"
+    },
+    "u4ee4": {
+        "name": "令",
+        "unicode": "u4ee4",
+        "index": 210,
+        "hex": "#8dc2d5"
+    },
+    "u4f0au5185u4e1d": {
+        "name": "伊内丝",
+        "unicode": "u4f0au5185u4e1d",
+        "index": 250,
+        "hex": "#d97673"
+    },
+    "u4f0au6851": {
+        "name": "伊桑",
+        "unicode": "u4f0au6851",
+        "index": 20,
+        "hex": "#9fa9a9"
+    },
+    "u4f0au8299u5229u7279": {
+        "name": "伊芙利特",
+        "unicode": "u4f0au8299u5229u7279",
+        "index": 140,
+        "hex": "#cebf79"
+    },
+    "u4f11u8c1fu65af": {
+        "name": "休谟斯",
+        "unicode": "u4f11u8c1fu65af",
+        "index": 250,
+        "hex": "#c8a089"
+    },
+    "u4f3au591c": {
+        "name": "伺夜",
+        "unicode": "u4f3au591c",
+        "index": 190,
+        "hex": "#929cc4"
+    },
+    "u4f46u4e66": {
+        "name": "但书",
+        "unicode": "u4f46u4e66",
+        "index": 170,
+        "hex": "#8fb881"
+    },
+    "u4f59": {
+        "name": "余",
+        "unicode": "u4f59",
+        "index": 450,
+        "hex": "#c6818d"
+    },
+    "u4f69u4f69": {
+        "name": "佩佩",
+        "unicode": "u4f69u4f69",
+        "index": 420,
+        "hex": "#68508e"
+    },
+    "u4fe1u4ef0u6405u62ccu673a": {
+        "name": "信仰搅拌机",
+        "unicode": "u4fe1u4ef0u6405u62ccu673a",
+        "index": 480,
+        "hex": "#9497bc"
+    },
+    "u5047u65e5u5a01u9f99u9648": {
+        "name": "假日威龙陈",
+        "unicode": "u5047u65e5u5a01u9f99u9648",
+        "index": 310,
+        "hex": "#58619e"
+    },
+    "u5080u5f71": {
+        "name": "傀影",
+        "unicode": "u5080u5f71",
+        "index": 20,
+        "hex": "#b9ac96"
+    },
+    "u514bu6d1bu4e1d": {
+        "name": "克洛丝",
+        "unicode": "u514bu6d1bu4e1d",
+        "index": 90,
+        "hex": "#8fac3f"
+    },
+    "u51b0u917f": {
+        "name": "冰酿",
+        "unicode": "u51b0u917f",
+        "index": 320,
+        "hex": "#ba95b2"
+    },
+    "u51dbu51ac": {
+        "name": "凛冬",
+        "unicode": "u51dbu51ac",
+        "index": 30,
+        "hex": "#d56853"
+    },
+    "u51dbu89c6": {
+        "name": "凛视",
+        "unicode": "u51dbu89c6",
+        "index": 290,
+        "hex": "#6889b9"
+    },
+    "u51efu5c14u5e0c": {
+        "name": "凯尔希",
+        "unicode": "u51efu5c14u5e0c",
+        "index": 260,
+        "hex": "#aabb29"
+    },
+    "u51efu745fu7433": {
+        "name": "凯瑟琳",
+        "unicode": "u51efu745fu7433",
+        "index": 430,
+        "hex": "#c89674"
+    },
+    "u521du96ea": {
+        "name": "初雪",
+        "unicode": "u521du96ea",
+        "index": 70,
+        "hex": "#b5c5c9"
+    },
+    "u523au73ab": {
+        "name": "刺玫",
+        "unicode": "u523au73ab",
+        "index": 320,
+        "hex": "#da8436"
+    },
+    "u523bu4fc4u67cf": {
+        "name": "刻俄柏",
+        "unicode": "u523bu4fc4u67cf",
+        "index": 200,
+        "hex": "#e5b556"
+    },
+    "u523bu5200": {
+        "name": "刻刀",
+        "unicode": "u523bu5200",
+        "index": 480,
+        "hex": "#bd3f3d"
+    },
+    "u534eu6cd5u7433": {
+        "name": "华法琳",
+        "unicode": "u534eu6cd5u7433",
+        "index": 390,
+        "hex": "#b53f51"
+    },
+    "u535au58eb": {
+        "name": "博士",
+        "unicode": "u535au58eb",
+        "index": 20,
+        "hex": "#5dabc9"
+    },
+    "u5361u592bu5361": {
+        "name": "卡夫卡",
+        "unicode": "u5361u592bu5361",
+        "index": 150,
+        "hex": "#55a28e"
+    },
+    "u5361u6d85u5229u5b89": {
+        "name": "卡涅利安",
+        "unicode": "u5361u6d85u5229u5b89",
+        "index": 160,
+        "hex": "#e4b73f"
+    },
+    "u5361u7f07": {
+        "name": "卡缇",
+        "unicode": "u5361u7f07",
+        "index": 290,
+        "hex": "#696ba3"
+    },
+    "u5361u8fbe": {
+        "name": "卡达",
+        "unicode": "u5361u8fbe",
+        "index": 480,
+        "hex": "#d3cf7c"
+    },
+    "u5386u9635u9510u67aau82ac": {
+        "name": "历阵锐枪芬",
+        "unicode": "u5386u9635u9510u67aau82ac",
+        "index": 390,
+        "hex": "#5c799e"
+    },
+    "u53e4u7c73": {
+        "name": "古米",
+        "unicode": "u53e4u7c73",
+        "index": 30,
+        "hex": "#d56724"
+    },
+    "u53efu9882": {
+        "name": "可颂",
+        "unicode": "u53efu9882",
+        "index": 110,
+        "hex": "#d65b32"
+    },
+    "u53f2u5c14u7279u5c14": {
+        "name": "史尔特尔",
+        "unicode": "u53f2u5c14u7279u5c14",
+        "index": 370,
+        "hex": "#bf4c43"
+    },
+    "u53f2u90fdu534eu5fb7": {
+        "name": "史都华德",
+        "unicode": "u53f2u90fdu534eu5fb7",
+        "index": 100,
+        "hex": "#6c6da1"
+    },
+    "u53f7u89d2": {
+        "name": "号角",
+        "unicode": "u53f7u89d2",
+        "index": 180,
+        "hex": "#c9a774"
+    },
+    "u543d": {
+        "name": "吽",
+        "unicode": "u543d",
+        "index": 230,
+        "hex": "#d4915f"
+    },
+    "u548cu5f26": {
+        "name": "和弦",
+        "unicode": "u548cu5f26",
+        "index": 200,
+        "hex": "#aac9b2"
+    },
+    "u54c8u6d1bu5fb7": {
+        "name": "哈洛德",
+        "unicode": "u54c8u6d1bu5fb7",
+        "index": 350,
+        "hex": "#9599bc"
+    },
+    "u5609u7ef4u5c14": {
+        "name": "嘉维尔",
+        "unicode": "u5609u7ef4u5c14",
+        "index": 260,
+        "hex": "#70a651"
+    },
+    "u56e0u9640u7f57": {
+        "name": "因陀罗",
+        "unicode": "u56e0u9640u7f57",
+        "index": 180,
+        "hex": "#758b92"
+    },
+    "u56feu8036": {
+        "name": "图耶",
+        "unicode": "u56feu8036",
+        "index": 450,
+        "hex": "#d1b886"
+    },
+    "u5723u7ea6u9001u846cu4eba": {
+        "name": "圣约送葬人",
+        "unicode": "u5723u7ea6u9001u846cu4eba",
+        "index": 280,
+        "hex": "#888789"
+    },
+    "u5730u7075": {
+        "name": "地灵",
+        "unicode": "u5730u7075",
+        "index": 130,
+        "hex": "#d67f78"
+    },
+    "u575au96f7": {
+        "name": "坚雷",
+        "unicode": "u575au96f7",
+        "index": 370,
+        "hex": "#7f648c"
+    },
+    "u57c3u62c9u6258": {
+        "name": "埃拉托",
+        "unicode": "u57c3u62c9u6258",
+        "index": 130,
+        "hex": "#8fb66c"
+    },
+    "u5851u5fc3": {
+        "name": "塑心",
+        "unicode": "u5851u5fc3",
+        "index": 330,
+        "hex": "#b4926b"
+    },
+    "u585eu96f7u5a05": {
+        "name": "塞雷娅",
+        "unicode": "u585eu96f7u5a05",
+        "index": 140,
+        "hex": "#df863f"
+    },
+    "u590fu680e": {
+        "name": "夏栎",
+        "unicode": "u590fu680e",
+        "index": 130,
+        "hex": "#c6a355"
+    },
+    "u5915": {
+        "name": "夕",
+        "unicode": "u5915",
+        "index": 210,
+        "hex": "#a6b4b8"
+    },
+    "u591au841du897f": {
+        "name": "多萝西",
+        "unicode": "u591au841du897f",
+        "index": 150,
+        "hex": "#de9f4f"
+    },
+    "u591cu5200": {
+        "name": "夜刀",
+        "unicode": "u591cu5200",
+        "index": 270,
+        "hex": "#5197c3"
+    },
+    "u591cu534a": {
+        "name": "夜半",
+        "unicode": "u591cu534a",
+        "index": 210,
+        "hex": "#5c7eb1"
+    },
+    "u591cu70df": {
+        "name": "夜烟",
+        "unicode": "u591cu70df",
+        "index": 170,
+        "hex": "#d25563"
+    },
+    "u591cu83ba": {
+        "name": "夜莺",
+        "unicode": "u591cu83ba",
+        "index": 380,
+        "hex": "#e1d2ae"
+    },
+    "u591cu9b54": {
+        "name": "夜魔",
+        "unicode": "u591cu9b54",
+        "index": 400,
+        "hex": "#d6bc5c"
+    },
+    "u5929u706b": {
+        "name": "天火",
+        "unicode": "u5929u706b",
+        "index": 160,
+        "hex": "#d77060"
+    },
+    "u5965u65afu5854": {
+        "name": "奥斯塔",
+        "unicode": "u5965u65afu5854",
+        "index": 60,
+        "hex": "#4b677a"
+    },
+    "u5965u8fbe": {
+        "name": "奥达",
+        "unicode": "u5965u8fbe",
+        "index": 380,
+        "hex": "#e3a47a"
+    },
+    "u59aeu8299": {
+        "name": "妮芙",
+        "unicode": "u59aeu8299",
+        "index": 420,
+        "hex": "#c74e6a"
+    },
+    "u5a1cu4ec1u56feu4e9a": {
+        "name": "娜仁图亚",
+        "unicode": "u5a1cu4ec1u56feu4e9a",
+        "index": 420,
+        "hex": "#c7453b"
+    },
+    "u5b50u6708": {
+        "name": "子月",
+        "unicode": "u5b50u6708",
+        "index": 190,
+        "hex": "#bbc064"
+    },
+    "u5b51": {
+        "name": "孑",
+        "unicode": "u5b51",
+        "index": 230,
+        "hex": "#4577a1"
+    },
+    "u5b88u6797u4eba": {
+        "name": "守林人",
+        "unicode": "u5b88u6797u4eba",
+        "index": 410,
+        "hex": "#989d7a"
+    },
+    "u5b89u54f2u62c9": {
+        "name": "安哲拉",
+        "unicode": "u5b89u54f2u62c9",
+        "index": 260,
+        "hex": "#61619b"
+    },
+    "u5b89u54f2u62c9u7cbeu4e8cu0056u0045u0052": {
+        "name": "安哲拉精二VER",
+        "unicode": "u5b89u54f2u62c9u7cbeu4e8cu0056u0045u0052",
+        "index": 260,
+        "hex": "#9f9ba2"
+    },
+    "u5b89u5fb7u5207u5c14": {
+        "name": "安德切尔",
+        "unicode": "u5b89u5fb7u5207u5c14",
+        "index": 100,
+        "hex": "#8879ae"
+    },
+    "u5b89u6bd4u5c14": {
+        "name": "安比尔",
+        "unicode": "u5b89u6bd4u5c14",
+        "index": 100,
+        "hex": "#de8496"
+    },
+    "u5b89u6d01u8389u5a1c": {
+        "name": "安洁莉娜",
+        "unicode": "u5b89u6d01u8389u5a1c",
+        "index": 290,
+        "hex": "#bc5551"
+    },
+    "u5b89u8d5bu5c14": {
+        "name": "安赛尔",
+        "unicode": "u5b89u8d5bu5c14",
+        "index": 250,
+        "hex": "#cba4b1"
+    },
+    "u5bb4": {
+        "name": "宴",
+        "unicode": "u5bb4",
+        "index": 460,
+        "hex": "#d2cc51"
+    },
+    "u5bd2u6a80": {
+        "name": "寒檀",
+        "unicode": "u5bd2u6a80",
+        "index": 290,
+        "hex": "#7dacd0"
+    },
+    "u5bd2u8292u514bu6d1bu4e1d": {
+        "name": "寒芒克洛丝",
+        "unicode": "u5bd2u8292u514bu6d1bu4e1d",
+        "index": 220,
+        "hex": "#a0bd6a"
+    },
+    "u5bfbu6f9c": {
+        "name": "寻澜",
+        "unicode": "u5bfbu6f9c",
+        "index": 450,
+        "hex": "#7d89b7"
+    },
+    "u5c0fu6ee1": {
+        "name": "小满",
+        "unicode": "u5c0fu6ee1",
+        "index": 360,
+        "hex": "#8ab587"
+    },
+    "u5c71": {
+        "name": "山",
+        "unicode": "u5c71",
+        "index": 150,
+        "hex": "#7e3434"
+    },
+    "u5d16u5fc3": {
+        "name": "崖心",
+        "unicode": "u5d16u5fc3",
+        "index": 70,
+        "hex": "#c0c7c7"
+    },
+    "u5d6fu5ce8": {
+        "name": "嵯峨",
+        "unicode": "u5d6fu5ce8",
+        "index": 290,
+        "hex": "#8880ac"
+    },
+    "u5de1u6797u8005": {
+        "name": "巡林者",
+        "unicode": "u5de1u6797u8005",
+        "index": 20,
+        "hex": "#1e71b0"
+    },
+    "u5de6u4e50": {
+        "name": "左乐",
+        "unicode": "u5de6u4e50",
+        "index": 360,
+        "hex": "#4d6e93"
+    },
+    "u5debu604b": {
+        "name": "巫恋",
+        "unicode": "u5debu604b",
+        "index": 10,
+        "hex": "#dc7791"
+    },
+    "u5e03u4e01": {
+        "name": "布丁",
+        "unicode": "u5e03u4e01",
+        "index": 200,
+        "hex": "#e5c6c5"
+    },
+    "u5e03u6d1bu5361": {
+        "name": "布洛卡",
+        "unicode": "u5e03u6d1bu5361",
+        "index": 60,
+        "hex": "#e5c21c"
+    },
+    "u5e15u62c9u65af": {
+        "name": "帕拉斯",
+        "unicode": "u5e15u62c9u65af",
+        "index": 370,
+        "hex": "#6d689f"
+    },
+    "u5e74": {
+        "name": "年",
+        "unicode": "u5e74",
+        "index": 210,
+        "hex": "#de896e"
+    },
+    "u5e7du7075u9ca8": {
+        "name": "幽灵鲨",
+        "unicode": "u5e7du7075u9ca8",
+        "index": 120,
+        "hex": "#9a2c2e"
+    },
+    "u5f02u5ba2": {
+        "name": "异客",
+        "unicode": "u5f02u5ba2",
+        "index": 100,
+        "hex": "#caa26e"
+    },
+    "u5f11u541bu8005": {
+        "name": "弑君者",
+        "unicode": "u5f11u541bu8005",
+        "index": 430,
+        "hex": "#b96a4c"
+    },
+    "u5f15u661fu68d8u523a": {
+        "name": "引星棘刺",
+        "unicode": "u5f15u661fu68d8u523a",
+        "index": 460,
+        "hex": "#6171a8"
+    },
+    "u5f52u6e9fu5e7du7075u9ca8": {
+        "name": "归溟幽灵鲨",
+        "unicode": "u5f52u6e9fu5e7du7075u9ca8",
+        "index": 400,
+        "hex": "#689abf"
+    },
+    "u5faeu98ce": {
+        "name": "微风",
+        "unicode": "u5faeu98ce",
+        "index": 220,
+        "hex": "#c8b38b"
+    },
+    "u5fb7u514bu8428u65af": {
+        "name": "德克萨斯",
+        "unicode": "u5fb7u514bu8428u65af",
+        "index": 110,
+        "hex": "#dd7a27"
+    },
+    "u5fcdu51ac": {
+        "name": "忍冬",
+        "unicode": "u5fcdu51ac",
+        "index": 440,
+        "hex": "#7c7eae"
+    },
+    "u60cau86f0": {
+        "name": "惊蛰",
+        "unicode": "u60cau86f0",
+        "index": 230,
+        "hex": "#6a6eab"
+    },
+    "u6151u7802": {
+        "name": "慑砂",
+        "unicode": "u6151u7802",
+        "index": 60,
+        "hex": "#a94030"
+    },
+    "u6155u65af": {
+        "name": "慕斯",
+        "unicode": "u6155u65af",
+        "index": 390,
+        "hex": "#e5b279"
+    },
+    "u622au4e91": {
+        "name": "截云",
+        "unicode": "u622au4e91",
+        "index": 220,
+        "hex": "#9fb2bc"
+    },
+    "u6234u83f2u6069": {
+        "name": "戴菲恩",
+        "unicode": "u6234u83f2u6069",
+        "index": 320,
+        "hex": "#d2cf4b"
+    },
+    "u627fu66e6u683cu96f7u4f0a": {
+        "name": "承曦格雷伊",
+        "unicode": "u627fu66e6u683cu96f7u4f0a",
+        "index": 150,
+        "hex": "#c4a75a"
+    },
+    "u6298u5149": {
+        "name": "折光",
+        "unicode": "u6298u5149",
+        "index": 330,
+        "hex": "#b09f77"
+    },
+    "u62c9u666eu5170u5fb7": {
+        "name": "拉普兰德",
+        "unicode": "u62c9u666eu5170u5fb7",
+        "index": 190,
+        "hex": "#94ab91"
+    },
+    "u62dcu677e": {
+        "name": "拜松",
+        "unicode": "u62dcu677e",
+        "index": 110,
+        "hex": "#df8a21"
+    },
+    "u63a0u98ce": {
+        "name": "掠风",
+        "unicode": "u63a0u98ce",
+        "index": 410,
+        "hex": "#bdc036"
+    },
+    "u63a8u8fdbu4e4bu738b": {
+        "name": "推进之王",
+        "unicode": "u63a8u8fdbu4e4bu738b",
+        "index": 80,
+        "hex": "#ad9067"
+    },
+    "u63d0u4e30": {
+        "name": "提丰",
+        "unicode": "u63d0u4e30",
+        "index": 290,
+        "hex": "#ac87b0"
+    },
+    "u6469u6839": {
+        "name": "摩根",
+        "unicode": "u6469u6839",
+        "index": 250,
+        "hex": "#dac161"
+    },
+    "u6591u70b9": {
+        "name": "斑点",
+        "unicode": "u6591u70b9",
+        "index": 60,
+        "hex": "#1e62a6"
+    },
+    "u65a5u7f6a": {
+        "name": "斥罪",
+        "unicode": "u65a5u7f6a",
+        "index": 190,
+        "hex": "#e2b189"
+    },
+    "u65adu5d16": {
+        "name": "断崖",
+        "unicode": "u65adu5d16",
+        "index": 60,
+        "hex": "#e4bb3d"
+    },
+    "u65adu7f6au8005": {
+        "name": "断罪者",
+        "unicode": "u65adu7f6au8005",
+        "index": 50,
+        "hex": "#6799c5"
+    },
+    "u65afu5361u8482": {
+        "name": "斯卡蒂",
+        "unicode": "u65afu5361u8482",
+        "index": 120,
+        "hex": "#2f6aa8"
+    },
+    "u65b0u7ea6u80fdu5929u4f7f": {
+        "name": "新约能天使",
+        "unicode": "u65b0u7ea6u80fdu5929u4f7f",
+        "index": 480,
+        "hex": "#cd5859"
+    },
+    "u65e9u9732": {
+        "name": "早露",
+        "unicode": "u65e9u9732",
+        "index": 30,
+        "hex": "#4b768c"
+    },
+    "u660eu6912": {
+        "name": "明椒",
+        "unicode": "u660eu6912",
+        "index": 180,
+        "hex": "#bb9d98"
+    },
+    "u661fu6781": {
+        "name": "星极",
+        "unicode": "u661fu6781",
+        "index": 90,
+        "hex": "#3984b6"
+    },
+    "u661fu6e90": {
+        "name": "星源",
+        "unicode": "u661fu6e90",
+        "index": 150,
+        "hex": "#5573a8"
+    },
+    "u661fu718a": {
+        "name": "星熊",
+        "unicode": "u661fu718a",
+        "index": 240,
+        "hex": "#53ab99"
+    },
+    "u6653u6b4c": {
+        "name": "晓歌",
+        "unicode": "u6653u6b4c",
+        "index": 160,
+        "hex": "#779bc5"
+    },
+    "u666eu7f57u65fau65af": {
+        "name": "普罗旺斯",
+        "unicode": "u666eu7f57u65fau65af",
+        "index": 410,
+        "hex": "#8f85b0"
+    },
+    "u6697u7d22": {
+        "name": "暗索",
+        "unicode": "u6697u7d22",
+        "index": 300,
+        "hex": "#877dad"
+    },
+    "u66aeu843d": {
+        "name": "暮落",
+        "unicode": "u66aeu843d",
+        "index": 300,
+        "hex": "#a99fb8"
+    },
+    "u66b4u884c": {
+        "name": "暴行",
+        "unicode": "u66b4u884c",
+        "index": 370,
+        "hex": "#dc9744"
+    },
+    "u66b4u96e8": {
+        "name": "暴雨",
+        "unicode": "u66b4u96e8",
+        "index": 110,
+        "hex": "#8c8c59"
+    },
+    "u6708u79be": {
+        "name": "月禾",
+        "unicode": "u6708u79be",
+        "index": 350,
+        "hex": "#6a7aaf"
+    },
+    "u6708u89c1u591c": {
+        "name": "月见夜",
+        "unicode": "u6708u89c1u591c",
+        "index": 60,
+        "hex": "#d47f9a"
+    },
+    "u672bu836f": {
+        "name": "末药",
+        "unicode": "u672bu836f",
+        "index": 140,
+        "hex": "#d77175"
+    },
+    "u674fu4ec1": {
+        "name": "杏仁",
+        "unicode": "u674fu4ec1",
+        "index": 320,
+        "hex": "#de8c56"
+    },
+    "u675cu5bbe": {
+        "name": "杜宾",
+        "unicode": "u675cu5bbe",
+        "index": 370,
+        "hex": "#5d99c3"
+    },
+    "u675cu6797": {
+        "name": "杜林",
+        "unicode": "u675cu6797",
+        "index": 340,
+        "hex": "#e5cca4"
+    },
+    "u6770u514b": {
+        "name": "杰克",
+        "unicode": "u6770u514b",
+        "index": 50,
+        "hex": "#e0a853"
+    },
+    "u6770u897fu5361": {
+        "name": "杰西卡",
+        "unicode": "u6770u897fu5361",
+        "index": 310,
+        "hex": "#8f4957"
+    },
+    "u677eu679c": {
+        "name": "松果",
+        "unicode": "u677eu679c",
+        "index": 150,
+        "hex": "#dc896b"
+    },
+    "u6781u5149": {
+        "name": "极光",
+        "unicode": "u6781u5149",
+        "index": 280,
+        "hex": "#8bc6db"
+    },
+    "u6781u5883": {
+        "name": "极境",
+        "unicode": "u6781u5883",
+        "index": 20,
+        "hex": "#8f2f37"
+    },
+    "u6797": {
+        "name": "林",
+        "unicode": "u6797",
+        "index": 220,
+        "hex": "#c8acc7"
+    },
+    "u67cfu5599": {
+        "name": "柏喙",
+        "unicode": "u67cfu5599",
+        "index": 400,
+        "hex": "#58a8a9"
+    },
+    "u683cu52b3u514bu65af": {
+        "name": "格劳克斯",
+        "unicode": "u683cu52b3u514bu65af",
+        "index": 210,
+        "hex": "#6283b7"
+    },
+    "u683cu62c9u5c3c": {
+        "name": "格拉尼",
+        "unicode": "u683cu62c9u5c3c",
+        "index": 120,
+        "hex": "#db7625"
+    },
+    "u683cu96f7u4f0a": {
+        "name": "格雷伊",
+        "unicode": "u683cu96f7u4f0a",
+        "index": 120,
+        "hex": "#e3a644"
+    },
+    "u6843u91d1u5a18": {
+        "name": "桃金娘",
+        "unicode": "u6843u91d1u5a18",
+        "index": 370,
+        "hex": "#d297b8"
+    },
+    "u6851u845a": {
+        "name": "桑葚",
+        "unicode": "u6851u845a",
+        "index": 80,
+        "hex": "#c82c3d"
+    },
+    "u6885u5c14": {
+        "name": "梅尔",
+        "unicode": "u6885u5c14",
+        "index": 140,
+        "hex": "#da855a"
+    },
+    "u6893u5170": {
+        "name": "梓兰",
+        "unicode": "u6893u5170",
+        "index": 70,
+        "hex": "#c2c4cd"
+    },
+    "u68d8u523a": {
+        "name": "棘刺",
+        "unicode": "u68d8u523a",
+        "index": 170,
+        "hex": "#e2ad52"
+    },
+    "u68eeu86ba": {
+        "name": "森蚺",
+        "unicode": "u68eeu86ba",
+        "index": 40,
+        "hex": "#dd9d50"
+    },
+    "u69d0u7425": {
+        "name": "槐琥",
+        "unicode": "u69d0u7425",
+        "index": 230,
+        "hex": "#e2aa46"
+    },
+    "u6b4cu857eu8482u5a05": {
+        "name": "歌蕾蒂娅",
+        "unicode": "u6b4cu857eu8482u5a05",
+        "index": 120,
+        "hex": "#8684a0"
+    },
+    "u6b62u9882": {
+        "name": "止颂",
+        "unicode": "u6b62u9882",
+        "index": 330,
+        "hex": "#5c74aa"
+    },
+    "u6b7bu8292": {
+        "name": "死芒",
+        "unicode": "u6b7bu8292",
+        "index": 470,
+        "hex": "#a49cc1"
+    },
+    "u6c34u6708": {
+        "name": "水月",
+        "unicode": "u6c34u6708",
+        "index": 310,
+        "hex": "#87bede"
+    },
+    "u6c34u706fu5fc3": {
+        "name": "水灯心",
+        "unicode": "u6c34u706fu5fc3",
+        "index": 470,
+        "hex": "#e6ca82"
+    },
+    "u6ce1u666eu5361": {
+        "name": "泡普卡",
+        "unicode": "u6ce1u666eu5361",
+        "index": 70,
+        "hex": "#c4a6c1"
+    },
+    "u6ce1u6ce1": {
+        "name": "泡泡",
+        "unicode": "u6ce1u6ce1",
+        "index": 90,
+        "hex": "#479b97"
+    },
+    "u6ce2u535c": {
+        "name": "波卜",
+        "unicode": "u6ce2u535c",
+        "index": 430,
+        "hex": "#d59a88"
+    },
+    "u6ce2u767bu53ef": {
+        "name": "波登可",
+        "unicode": "u6ce2u767bu53ef",
+        "index": 440,
+        "hex": "#67b0a6"
+    },
+    "u6ce5u5ca9": {
+        "name": "泥岩",
+        "unicode": "u6ce5u5ca9",
+        "index": 50,
+        "hex": "#6f5c55"
+    },
+    "u6d0bu7070": {
+        "name": "洋灰",
+        "unicode": "u6d0bu7070",
+        "index": 250,
+        "hex": "#8289b8"
+    },
+    "u6d1bu6d1b": {
+        "name": "洛洛",
+        "unicode": "u6d1bu6d1b",
+        "index": 180,
+        "hex": "#aaa0a3"
+    },
+    "u6d41u660e": {
+        "name": "流明",
+        "unicode": "u6d41u660e",
+        "index": 410,
+        "hex": "#61a7c7"
+    },
+    "u6d41u661f": {
+        "name": "流星",
+        "unicode": "u6d41u661f",
+        "index": 300,
+        "hex": "#92bf99"
+    },
+    "u6d4au5fc3u65afu5361u8482": {
+        "name": "浊心斯卡蒂",
+        "unicode": "u6d4au5fc3u65afu5361u8482",
+        "index": 260,
+        "hex": "#afb5ba"
+    },
+    "u6d77u6cab": {
+        "name": "海沫",
+        "unicode": "u6d77u6cab",
+        "index": 200,
+        "hex": "#9aa5c7"
+    },
+    "u6d77u8482": {
+        "name": "海蒂",
+        "unicode": "u6d77u8482",
+        "index": 260,
+        "hex": "#e2a59f"
+    },
+    "u6d77u9713": {
+        "name": "海霓",
+        "unicode": "u6d77u9713",
+        "index": 400,
+        "hex": "#c3a6b8"
+    },
+    "u6da4u706bu6770u897fu5361": {
+        "name": "涤火杰西卡",
+        "unicode": "u6da4u706bu6770u897fu5361",
+        "index": 320,
+        "hex": "#cdc84c"
+    },
+    "u6decu7fbdu8d6bu9ed8": {
+        "name": "淬羽赫默",
+        "unicode": "u6decu7fbdu8d6bu9ed8",
+        "index": 270,
+        "hex": "#89b35b"
+    },
+    "u6df1u5de1": {
+        "name": "深巡",
+        "unicode": "u6df1u5de1",
+        "index": 400,
+        "hex": "#76a5c9"
+    },
+    "u6df1u5f8b": {
+        "name": "深律",
+        "unicode": "u6df1u5f8b",
+        "index": 330,
+        "hex": "#93a089"
+    },
+    "u6df1u6d77u8272": {
+        "name": "深海色",
+        "unicode": "u6df1u6d77u8272",
+        "index": 120,
+        "hex": "#a8bd1d"
+    },
+    "u6df1u975b": {
+        "name": "深靛",
+        "unicode": "u6df1u975b",
+        "index": 360,
+        "hex": "#8378ab"
+    },
+    "u6e05u9053u592b": {
+        "name": "清道夫",
+        "unicode": "u6e05u9053u592b",
+        "index": 460,
+        "hex": "#aca3bf"
+    },
+    "u6e21u6865": {
+        "name": "渡桥",
+        "unicode": "u6e21u6865",
+        "index": 420,
+        "hex": "#37999b"
+    },
+    "u6e29u7c73": {
+        "name": "温米",
+        "unicode": "u6e29u7c73",
+        "index": 350,
+        "hex": "#dca181"
+    },
+    "u6e29u8482": {
+        "name": "温蒂",
+        "unicode": "u6e29u8482",
+        "index": 10,
+        "hex": "#c3c263"
+    },
+    "u6f84u95ea": {
+        "name": "澄闪",
+        "unicode": "u6f84u95ea",
+        "index": 130,
+        "hex": "#d0809d"
+    },
+    "u6fefu5c18u8299u84c9": {
+        "name": "濯尘芙蓉",
+        "unicode": "u6fefu5c18u8299u84c9",
+        "index": 130,
+        "hex": "#a57ba3"
+    },
+    "u706bu54e8": {
+        "name": "火哨",
+        "unicode": "u706bu54e8",
+        "index": 220,
+        "hex": "#e7c573"
+    },
+    "u706bu795e": {
+        "name": "火神",
+        "unicode": "u706bu795e",
+        "index": 220,
+        "hex": "#c6c9cc"
+    },
+    "u7070u5589": {
+        "name": "灰喉",
+        "unicode": "u7070u5589",
+        "index": 250,
+        "hex": "#92c1bd"
+    },
+    "u7070u6beb": {
+        "name": "灰毫",
+        "unicode": "u7070u6beb",
+        "index": 340,
+        "hex": "#938b83"
+    },
+    "u7075u77e5": {
+        "name": "灵知",
+        "unicode": "u7075u77e5",
+        "index": 280,
+        "hex": "#8caed1"
+    },
+    "u708eu5ba2": {
+        "name": "炎客",
+        "unicode": "u708eu5ba2",
+        "index": 20,
+        "hex": "#da7537"
+    },
+    "u708eu7194": {
+        "name": "炎熔",
+        "unicode": "u708eu7194",
+        "index": 80,
+        "hex": "#afa7c7"
+    },
+    "u708eu72f1u708eu7194": {
+        "name": "炎狱炎熔",
+        "unicode": "u708eu72f1u708eu7194",
+        "index": 210,
+        "hex": "#d0aac3"
+    },
+    "u70c8u590f": {
+        "name": "烈夏",
+        "unicode": "u70c8u590f",
+        "index": 350,
+        "hex": "#c96051"
+    },
+    "u70dbu714c": {
+        "name": "烛煌",
+        "unicode": "u70dbu714c",
+        "index": 450,
+        "hex": "#6aa6ca"
+    },
+    "u7130u5c3e": {
+        "name": "焰尾",
+        "unicode": "u7130u5c3e",
+        "index": 340,
+        "hex": "#d76755"
+    },
+    "u7130u5f71u82c7u8349": {
+        "name": "焰影苇草",
+        "unicode": "u7130u5f71u82c7u8349",
+        "index": 200,
+        "hex": "#e3c986"
+    },
+    "u714c": {
+        "name": "煌",
+        "unicode": "u714c",
+        "index": 250,
+        "hex": "#a55d5f"
+    },
+    "u7194u6cc9": {
+        "name": "熔泉",
+        "unicode": "u7194u6cc9",
+        "index": 100,
+        "hex": "#c0442e"
+    },
+    "u71e7u77f3": {
+        "name": "燧石",
+        "unicode": "u71e7u77f3",
+        "index": 40,
+        "hex": "#6b9e6d"
+    },
+    "u7231u4e3du4e1d": {
+        "name": "爱丽丝",
+        "unicode": "u7231u4e3du4e1d",
+        "index": 430,
+        "hex": "#81afd5"
+    },
+    "u7279u514bu8bfa": {
+        "name": "特克诺",
+        "unicode": "u7279u514bu8bfa",
+        "index": 460,
+        "hex": "#b6cb68"
+    },
+    "u7279u7c73u7c73": {
+        "name": "特米米",
+        "unicode": "u7279u7c73u7c73",
+        "index": 40,
+        "hex": "#6c7f64"
+    },
+    "u72eeu874e": {
+        "name": "狮蝎",
+        "unicode": "u72eeu874e",
+        "index": 170,
+        "hex": "#aea6c4"
+    },
+    "u730eu8702": {
+        "name": "猎蜂",
+        "unicode": "u730eu8702",
+        "index": 120,
+        "hex": "#e6be2f"
+    },
+    "u739bu6069u7eb3": {
+        "name": "玛恩纳",
+        "unicode": "u739bu6069u7eb3",
+        "index": 170,
+        "hex": "#6279ad"
+    },
+    "u73abu5170u838e": {
+        "name": "玫兰莎",
+        "unicode": "u73abu5170u838e",
+        "index": 290,
+        "hex": "#c15176"
+    },
+    "u73abu62c9": {
+        "name": "玫拉",
+        "unicode": "u73abu62c9",
+        "index": 270,
+        "hex": "#8384b2"
+    },
+    "u7433u7405u8bd7u6000u96c5": {
+        "name": "琳琅诗怀雅",
+        "unicode": "u7433u7405u8bd7u6000u96c5",
+        "index": 300,
+        "hex": "#e4bb78"
+    },
+    "u7434u67f3": {
+        "name": "琴柳",
+        "unicode": "u7434u67f3",
+        "index": 80,
+        "hex": "#6f92bc"
+    },
+    "u7455u5149": {
+        "name": "瑕光",
+        "unicode": "u7455u5149",
+        "index": 90,
+        "hex": "#ca5385"
+    },
+    "u7470u76d0": {
+        "name": "瑰盐",
+        "unicode": "u7470u76d0",
+        "index": 460,
+        "hex": "#d9a594"
+    },
+    "u767du91d1": {
+        "name": "白金",
+        "unicode": "u767du91d1",
+        "index": 30,
+        "hex": "#dd997d"
+    },
+    "u767du94c1": {
+        "name": "白铁",
+        "unicode": "u767du94c1",
+        "index": 180,
+        "hex": "#b0c0c9"
+    },
+    "u767du96ea": {
+        "name": "白雪",
+        "unicode": "u767du96ea",
+        "index": 240,
+        "hex": "#95b6d7"
+    },
+    "u767du9762u9e2e": {
+        "name": "白面鸮",
+        "unicode": "u767du9762u9e2e",
+        "index": 140,
+        "hex": "#71aed6"
+    },
+    "u767eu70bcu5609u7ef4u5c14": {
+        "name": "百炼嘉维尔",
+        "unicode": "u767eu70bcu5609u7ef4u5c14",
+        "index": 160,
+        "hex": "#7aac65"
+    },
+    "u771fu7406": {
+        "name": "真理",
+        "unicode": "u771fu7406",
+        "index": 30,
+        "hex": "#75b2a6"
+    },
+    "u77f3u68c9": {
+        "name": "石棉",
+        "unicode": "u77f3u68c9",
+        "index": 470,
+        "hex": "#e0bd56"
+    },
+    "u77f3u82f1": {
+        "name": "石英",
+        "unicode": "u77f3u82f1",
+        "index": 190,
+        "hex": "#e2a08c"
+    },
+    "u783e": {
+        "name": "砾",
+        "unicode": "u783e",
+        "index": 170,
+        "hex": "#db8e7a"
+    },
+    "u7a00u97f3": {
+        "name": "稀音",
+        "unicode": "u7a00u97f3",
+        "index": 290,
+        "hex": "#aac356"
+    },
+    "u7a7a": {
+        "name": "空",
+        "unicode": "u7a7a",
+        "index": 110,
+        "hex": "#d66e7c"
+    },
+    "u7a7au5f26": {
+        "name": "空弦",
+        "unicode": "u7a7au5f26",
+        "index": 370,
+        "hex": "#d26256"
+    },
+    "u7a7au6784": {
+        "name": "空构",
+        "unicode": "u7a7au6784",
+        "index": 280,
+        "hex": "#e39c98"
+    },
+    "u7a7au7206": {
+        "name": "空爆",
+        "unicode": "u7a7au7206",
+        "index": 70,
+        "hex": "#e4c2c0"
+    },
+    "u7c73u683cu9c81": {
+        "name": "米格鲁",
+        "unicode": "u7c73u683cu9c81",
+        "index": 90,
+        "hex": "#c86546"
+    },
+    "u7d6eu96e8": {
+        "name": "絮雨",
+        "unicode": "u7d6eu96e8",
+        "index": 50,
+        "hex": "#777dac"
+    },
+    "u7ea2": {
+        "name": "红",
+        "unicode": "u7ea2",
+        "index": 430,
+        "hex": "#c25356"
+    },
+    "u7ea2u4e91": {
+        "name": "红云",
+        "unicode": "u7ea2u4e91",
+        "index": 280,
+        "hex": "#e5ad82"
+    },
+    "u7ea2u8c46": {
+        "name": "红豆",
+        "unicode": "u7ea2u8c46",
+        "index": 270,
+        "hex": "#c34452"
+    },
+    "u7ea2u96bc": {
+        "name": "红隼",
+        "unicode": "u7ea2u96bc",
+        "index": 360,
+        "hex": "#d87253"
+    },
+    "u7eafu70ecu827eu96c5u6cd5u62c9": {
+        "name": "纯烬艾雅法拉",
+        "unicode": "u7eafu70ecu827eu96c5u6cd5u62c9",
+        "index": 300,
+        "hex": "#dc9a99"
+    },
+    "u7eeeu826f": {
+        "name": "绮良",
+        "unicode": "u7eeeu826f",
+        "index": 200,
+        "hex": "#e4bdc2"
+    },
+    "u7ef4u4ec0u6234u5c14": {
+        "name": "维什戴尔",
+        "unicode": "u7ef4u4ec0u6234u5c14",
+        "index": 390,
+        "hex": "#b02c31"
+    },
+    "u7ef4u5a1cu7ef4u591au5229u4e9a": {
+        "name": "维娜维多利亚",
+        "unicode": "u7ef4u5a1cu7ef4u591au5229u4e9a",
+        "index": 430,
+        "hex": "#e8ce79"
+    },
+    "u7ef4u837b": {
+        "name": "维荻",
+        "unicode": "u7ef4u837b",
+        "index": 320,
+        "hex": "#63a96d"
+    },
+    "u7f04u9ed8u5fb7u514bu8428u65af": {
+        "name": "缄默德克萨斯",
+        "unicode": "u7f04u9ed8u5fb7u514bu8428u65af",
+        "index": 190,
+        "hex": "#7195c0"
+    },
+    "u7f20u4e38": {
+        "name": "缠丸",
+        "unicode": "u7f20u4e38",
+        "index": 450,
+        "hex": "#dec390"
+    },
+    "u7f2au5c14u8d5bu601d": {
+        "name": "缪尔赛思",
+        "unicode": "u7f2au5c14u8d5bu601d",
+        "index": 270,
+        "hex": "#9ab336"
+    },
+    "u7f57u5bbe": {
+        "name": "罗宾",
+        "unicode": "u7f57u5bbe",
+        "index": 150,
+        "hex": "#7da258"
+    },
+    "u7f57u6bd4u83c8u5854": {
+        "name": "罗比菈塔",
+        "unicode": "u7f57u6bd4u83c8u5854",
+        "index": 80,
+        "hex": "#db9e98"
+    },
+    "u7fbdu6bdbu7b14": {
+        "name": "羽毛笔",
+        "unicode": "u7fbdu6bdbu7b14",
+        "index": 310,
+        "hex": "#708da6"
+    },
+    "u7fceu7fbd": {
+        "name": "翎羽",
+        "unicode": "u7fceu7fbd",
+        "index": 10,
+        "hex": "#e09f41"
+    },
+    "u8000u9a91u58ebu4e34u5149": {
+        "name": "耀骑士临光",
+        "unicode": "u8000u9a91u58ebu4e34u5149",
+        "index": 340,
+        "hex": "#dfc16e"
+    },
+    "u8001u9ca4": {
+        "name": "老鲤",
+        "unicode": "u8001u9ca4",
+        "index": 230,
+        "hex": "#d7a458"
+    },
+    "u8036u62c9": {
+        "name": "耶拉",
+        "unicode": "u8036u62c9",
+        "index": 280,
+        "hex": "#4b6aa8"
+    },
+    "u8046u97f3": {
+        "name": "聆音",
+        "unicode": "u8046u97f3",
+        "index": 480,
+        "hex": "#ab6182"
+    },
+    "u80fdu5929u4f7f": {
+        "name": "能天使",
+        "unicode": "u80fdu5929u4f7f",
+        "index": 110,
+        "hex": "#d13353"
+    },
+    "u81f3u7b80": {
+        "name": "至简",
+        "unicode": "u81f3u7b80",
+        "index": 160,
+        "hex": "#98b0bd"
+    },
+    "u827eu4e1du9edbu5c14": {
+        "name": "艾丝黛尔",
+        "unicode": "u827eu4e1du9edbu5c14",
+        "index": 260,
+        "hex": "#d0ce6d"
+    },
+    "u827eu4e3du59ae": {
+        "name": "艾丽妮",
+        "unicode": "u827eu4e3du59ae",
+        "index": 410,
+        "hex": "#d07691"
+    },
+    "u827eu96c5u6cd5u62c9": {
+        "name": "艾雅法拉",
+        "unicode": "u827eu96c5u6cd5u62c9",
+        "index": 30,
+        "hex": "#d6694b"
+    },
+    "u8299u5170u5361": {
+        "name": "芙兰卡",
+        "unicode": "u8299u5170u5361",
+        "index": 50,
+        "hex": "#ddaa3e"
+    },
+    "u8299u84c9": {
+        "name": "芙蓉",
+        "unicode": "u8299u84c9",
+        "index": 80,
+        "hex": "#ab97b9"
+    },
+    "u82ac": {
+        "name": "芬",
+        "unicode": "u82ac",
+        "index": 90,
+        "hex": "#3f66a2"
+    },
+    "u82b3u6c40": {
+        "name": "芳汀",
+        "unicode": "u82b3u6c40",
+        "index": 330,
+        "hex": "#b9c97b"
+    },
+    "u82c7u8349": {
+        "name": "苇草",
+        "unicode": "u82c7u8349",
+        "index": 80,
+        "hex": "#cfae98"
+    },
+    "u82cdu82d4": {
+        "name": "苍苔",
+        "unicode": "u82cdu82d4",
+        "index": 300,
+        "hex": "#c9d061"
+    },
+    "u82cfu82cfu6d1b": {
+        "name": "苏苏洛",
+        "unicode": "u82cfu82cfu6d1b",
+        "index": 10,
+        "hex": "#cf8c75"
+    },
+    "u82e6u827e": {
+        "name": "苦艾",
+        "unicode": "u82e6u827e",
+        "index": 30,
+        "hex": "#6c4d72"
+    },
+    "u8352u829cu62c9u666eu5170u5fb7": {
+        "name": "荒芜拉普兰德",
+        "unicode": "u8352u829cu62c9u666eu5170u5fb7",
+        "index": 440,
+        "hex": "#c96674"
+    },
+    "u838eu8349": {
+        "name": "莎草",
+        "unicode": "u838eu8349",
+        "index": 420,
+        "hex": "#8fb792"
+    },
+    "u83abu65afu63d0u9a6c": {
+        "name": "莫斯提马",
+        "unicode": "u83abu65afu63d0u9a6c",
+        "index": 110,
+        "hex": "#323f86"
+    },
+    "u83b1u4f0a": {
+        "name": "莱伊",
+        "unicode": "u83b1u4f0a",
+        "index": 350,
+        "hex": "#af6695"
+    },
+    "u83b1u6069u54c8u7279": {
+        "name": "莱恩哈特",
+        "unicode": "u83b1u6069u54c8u7279",
+        "index": 60,
+        "hex": "#abba5e"
+    },
+    "u83f2u4e9au6885u5854": {
+        "name": "菲亚梅塔",
+        "unicode": "u83f2u4e9au6885u5854",
+        "index": 100,
+        "hex": "#d1372b"
+    },
+    "u83f2u83b1": {
+        "name": "菲莱",
+        "unicode": "u83f2u83b1",
+        "index": 440,
+        "hex": "#e0c977"
+    },
+    "u84ddu6bd2": {
+        "name": "蓝毒",
+        "unicode": "u84ddu6bd2",
+        "index": 310,
+        "hex": "#658dbe"
+    },
+    "u857eu7f2au5b89": {
+        "name": "蕾缪安",
+        "unicode": "u857eu7f2au5b89",
+        "index": 480,
+        "hex": "#db848f"
+    },
+    "u8584u7eff": {
+        "name": "薄绿",
+        "unicode": "u8584u7eff",
+        "index": 350,
+        "hex": "#6eb8ad"
+    },
+    "u8587u8587u5b89u5a1c": {
+        "name": "薇薇安娜",
+        "unicode": "u8587u8587u5b89u5a1c",
+        "index": 330,
+        "hex": "#c06372"
+    },
+    "u8680u6e05": {
+        "name": "蚀清",
+        "unicode": "u8680u6e05",
+        "index": 340,
+        "hex": "#7e8ab9"
+    },
+    "u86c7u5c60u7bb1": {
+        "name": "蛇屠箱",
+        "unicode": "u86c7u5c60u7bb1",
+        "index": 170,
+        "hex": "#75b3ad"
+    },
+    "u871cu8393": {
+        "name": "蜜莓",
+        "unicode": "u871cu8393",
+        "index": 360,
+        "hex": "#a4bd63"
+    },
+    "u871cu8721": {
+        "name": "蜜蜡",
+        "unicode": "u871cu8721",
+        "index": 410,
+        "hex": "#d5bd37"
+    },
+    "u884cu7bb8": {
+        "name": "行箸",
+        "unicode": "u884cu7bb8",
+        "index": 450,
+        "hex": "#aaaac0"
+    },
+    "u8861u6c99": {
+        "name": "衡沙",
+        "unicode": "u8861u6c99",
+        "index": 420,
+        "hex": "#41669c"
+    },
+    "u88c1u5ea6": {
+        "name": "裁度",
+        "unicode": "u88c1u5ea6",
+        "index": 440,
+        "hex": "#b1be7a"
+    },
+    "u8910u679c": {
+        "name": "褐果",
+        "unicode": "u8910u679c",
+        "index": 270,
+        "hex": "#d4b64a"
+    },
+    "u89c1u884cu8005": {
+        "name": "见行者",
+        "unicode": "u89c1u884cu8005",
+        "index": 100,
+        "hex": "#9482ad"
+    },
+    "u89d2u5cf0": {
+        "name": "角峰",
+        "unicode": "u89d2u5cf0",
+        "index": 70,
+        "hex": "#a39ba5"
+    },
+    "u8bafu4f7f": {
+        "name": "讯使",
+        "unicode": "u8bafu4f7f",
+        "index": 70,
+        "hex": "#c2afa0"
+    },
+    "u8bd7u6000u96c5": {
+        "name": "诗怀雅",
+        "unicode": "u8bd7u6000u96c5",
+        "index": 240,
+        "hex": "#de8147"
+    },
+    "u8bfau5a01u5c14": {
+        "name": "诺威尔",
+        "unicode": "u8bfau5a01u5c14",
+        "index": 460,
+        "hex": "#7db2ca"
+    },
+    "u8c03u9999u5e08": {
+        "name": "调香师",
+        "unicode": "u8c03u9999u5e08",
+        "index": 410,
+        "hex": "#bf7256"
+    },
+    "u8c1cu56fe": {
+        "name": "谜图",
+        "unicode": "u8c1cu56fe",
+        "index": 200,
+        "hex": "#9086b1"
+    },
+    "u8c46u82d7": {
+        "name": "豆苗",
+        "unicode": "u8c46u82d7",
+        "index": 400,
+        "hex": "#c3c844"
+    },
+    "u8d1du5a1c": {
+        "name": "贝娜",
+        "unicode": "u8d1du5a1c",
+        "index": 430,
+        "hex": "#e8bd80"
+    },
+    "u8d3eu7ef4": {
+        "name": "贾维",
+        "unicode": "u8d3eu7ef4",
+        "index": 60,
+        "hex": "#d87a27"
+    },
+    "u8d64u51ac": {
+        "name": "赤冬",
+        "unicode": "u8d64u51ac",
+        "index": 260,
+        "hex": "#baacca"
+    },
+    "u8d6bu5fb7u96f7": {
+        "name": "赫德雷",
+        "unicode": "u8d6bu5fb7u96f7",
+        "index": 320,
+        "hex": "#a74542"
+    },
+    "u8d6bu62c9u683c": {
+        "name": "赫拉格",
+        "unicode": "u8d6bu62c9u683c",
+        "index": 40,
+        "hex": "#b1b974"
+    },
+    "u8d6bu9ed8": {
+        "name": "赫默",
+        "unicode": "u8d6bu9ed8",
+        "index": 140,
+        "hex": "#97b951"
+    },
+    "u8dc3u8dc3": {
+        "name": "跃跃",
+        "unicode": "u8dc3u8dc3",
+        "index": 330,
+        "hex": "#e5b2a8"
+    },
+    "u8f66u5c14u5c3c": {
+        "name": "车尔尼",
+        "unicode": "u8f66u5c14u5c3c",
+        "index": 130,
+        "hex": "#c55b4a"
+    },
+    "u8fbeu683cu8fbe": {
+        "name": "达格达",
+        "unicode": "u8fbeu683cu8fbe",
+        "index": 180,
+        "hex": "#e3a283"
+    },
+    "u8fdcu5c71": {
+        "name": "远山",
+        "unicode": "u8fdcu5c71",
+        "index": 310,
+        "hex": "#d6aab1"
+    },
+    "u8fdcu7259": {
+        "name": "远牙",
+        "unicode": "u8fdcu7259",
+        "index": 340,
+        "hex": "#90935f"
+    },
+    "u8ff7u8fedu9999": {
+        "name": "迷迭香",
+        "unicode": "u8ff7u8fedu9999",
+        "index": 50,
+        "hex": "#4897c7"
+    },
+    "u9001u846cu4eba": {
+        "name": "送葬人",
+        "unicode": "u9001u846cu4eba",
+        "index": 20,
+        "hex": "#79a5bf"
+    },
+    "u903bu5404u65af": {
+        "name": "逻各斯",
+        "unicode": "u903bu5404u65af",
+        "index": 390,
+        "hex": "#3b62a2"
+    },
+    "u9178u7cd6": {
+        "name": "酸糖",
+        "unicode": "u9178u7cd6",
+        "index": 40,
+        "hex": "#72606c"
+    },
+    "u91cdu5cb3": {
+        "name": "重岳",
+        "unicode": "u91cdu5cb3",
+        "index": 220,
+        "hex": "#d7b78b"
+    },
+    "u91ceu9b03": {
+        "name": "野鬃",
+        "unicode": "u91ceu9b03",
+        "index": 340,
+        "hex": "#937456"
+    },
+    "u94bcu94c5": {
+        "name": "钼铅",
+        "unicode": "u94bcu94c5",
+        "index": 470,
+        "hex": "#df8f4d"
+    },
+    "u94c3u5170": {
+        "name": "铃兰",
+        "unicode": "u94c3u5170",
+        "index": 440,
+        "hex": "#c6c9a1"
+    },
+    "u94c5u8e1d": {
+        "name": "铅踝",
+        "unicode": "u94c5u8e1d",
+        "index": 180,
+        "hex": "#a5c1c7"
+    },
+    "u94ceu94c3": {
+        "name": "铎铃",
+        "unicode": "u94ceu94c3",
+        "index": 240,
+        "hex": "#6fb8c6"
+    },
+    "u94f6u7070": {
+        "name": "银灰",
+        "unicode": "u94f6u7070",
+        "index": 70,
+        "hex": "#bfc8c9"
+    },
+    "u94f8u94c1": {
+        "name": "铸铁",
+        "unicode": "u94f8u94c1",
+        "index": 10,
+        "hex": "#2e8fc2"
+    },
+    "u950f": {
+        "name": "锏",
+        "unicode": "u950f",
+        "index": 350,
+        "hex": "#d2a345"
+    },
+    "u9521u4eba": {
+        "name": "锡人",
+        "unicode": "u9521u4eba",
+        "index": 420,
+        "hex": "#a7a17c"
+    },
+    "u9521u5170": {
+        "name": "锡兰",
+        "unicode": "u9521u5170",
+        "index": 40,
+        "hex": "#a0a9ab"
+    },
+    "u95eau7075": {
+        "name": "闪灵",
+        "unicode": "u95eau7075",
+        "index": 380,
+        "hex": "#a29d9a"
+    },
+    "u963f": {
+        "name": "阿",
+        "unicode": "u963f",
+        "index": 230,
+        "hex": "#df7450"
+    },
+    "u963fu5170u5a1c": {
+        "name": "阿兰娜",
+        "unicode": "u963fu5170u5a1c",
+        "index": 470,
+        "hex": "#cd6865"
+    },
+    "u963fu65afu5361u7eb6": {
+        "name": "阿斯卡纶",
+        "unicode": "u963fu65afu5361u7eb6",
+        "index": 380,
+        "hex": "#d8a2af"
+    },
+    "u963fu6d88": {
+        "name": "阿消",
+        "unicode": "u963fu6d88",
+        "index": 240,
+        "hex": "#eabe66"
+    },
+    "u963fu7c73u5a05": {
+        "name": "阿米娅",
+        "unicode": "u963fu7c73u5a05",
+        "index": 10,
+        "hex": "#368cc5"
+    },
+    "u963fu7f57u739b": {
+        "name": "阿罗玛",
+        "unicode": "u963fu7f57u739b",
+        "index": 380,
+        "hex": "#83aad1"
+    },
+    "u9648": {
+        "name": "陈",
+        "unicode": "u9648",
+        "index": 240,
+        "hex": "#42458f"
+    },
+    "u9668u661f": {
+        "name": "陨星",
+        "unicode": "u9668u661f",
+        "index": 160,
+        "hex": "#c9bb76"
+    },
+    "u9690u5fb7u6765u5e0c": {
+        "name": "隐德来希",
+        "unicode": "u9690u5fb7u6765u5e0c",
+        "index": 460,
+        "hex": "#d5666a"
+    },
+    "u9690u73b0": {
+        "name": "隐现",
+        "unicode": "u9690u73b0",
+        "index": 280,
+        "hex": "#6d6ca7"
+    },
+    "u96eau7ed2": {
+        "name": "雪绒",
+        "unicode": "u96eau7ed2",
+        "index": 190,
+        "hex": "#999bc1"
+    },
+    "u96eau96c9": {
+        "name": "雪雉",
+        "unicode": "u96eau96c9",
+        "index": 230,
+        "hex": "#a3ae99"
+    },
+    "u96f7u86c7": {
+        "name": "雷蛇",
+        "unicode": "u96f7u86c7",
+        "index": 50,
+        "hex": "#7990ba"
+    },
+    "u970du5c14u6d77u96c5": {
+        "name": "霍尔海雅",
+        "unicode": "u970du5c14u6d77u96c5",
+        "index": 270,
+        "hex": "#4aa2a1"
+    },
+    "u971cu53f6": {
+        "name": "霜叶",
+        "unicode": "u971cu53f6",
+        "index": 380,
+        "hex": "#c8959a"
+    },
+    "u9732u6258": {
+        "name": "露托",
+        "unicode": "u9732u6258",
+        "index": 380,
+        "hex": "#b2b78c"
+    },
+    "u9752u67b3": {
+        "name": "青枳",
+        "unicode": "u9752u67b3",
+        "index": 300,
+        "hex": "#bdb87d"
+    },
+    "u97adu5203": {
+        "name": "鞭刃",
+        "unicode": "u97adu5203",
+        "index": 90,
+        "hex": "#5d5b94"
+    },
+    "u98ceu4e38": {
+        "name": "风丸",
+        "unicode": "u98ceu4e38",
+        "index": 100,
+        "hex": "#daae55"
+    },
+    "u98ceu7b1b": {
+        "name": "风笛",
+        "unicode": "u98ceu7b1b",
+        "index": 80,
+        "hex": "#d37a54"
+    },
+    "u98dfu94c1u517d": {
+        "name": "食铁兽",
+        "unicode": "u98dfu94c1u517d",
+        "index": 450,
+        "hex": "#a7a7a7"
+    },
+    "u9999u8349": {
+        "name": "香草",
+        "unicode": "u9999u8349",
+        "index": 10,
+        "hex": "#d74950"
+    },
+    "u9a8bu98ce": {
+        "name": "骋风",
+        "unicode": "u9a8bu98ce",
+        "index": 470,
+        "hex": "#d08558"
+    },
+    "u9b54u738bu7279u857eu897fu5a05": {
+        "name": "魔王特蕾西娅",
+        "unicode": "u9b54u738bu7279u857eu897fu5a05",
+        "index": 390,
+        "hex": "#d39fae"
+    },
+    "u9e3fu96ea": {
+        "name": "鸿雪",
+        "unicode": "u9e3fu96ea",
+        "index": 160,
+        "hex": "#de9e94"
+    },
+    "u9ea6u54f2u4f26": {
+        "name": "麦哲伦",
+        "unicode": "u9ea6u54f2u4f26",
+        "index": 140,
+        "hex": "#e4af55"
+    },
+    "u9ecd": {
+        "name": "黍",
+        "unicode": "u9ecd",
+        "index": 360,
+        "hex": "#adc040"
+    },
+    "u9ed1": {
+        "name": "黑",
+        "unicode": "u9ed1",
+        "index": 40,
+        "hex": "#d9705f"
+    },
+    "u9ed1u89d2": {
+        "name": "黑角",
+        "unicode": "u9ed1u89d2",
+        "index": 20,
+        "hex": "#1f9dcf"
+    },
+    "u9ed1u952e": {
+        "name": "黑键",
+        "unicode": "u9ed1u952e",
+        "index": 130,
+        "hex": "#826fa1"
+    },
+    "u9f99u820cu5170": {
+        "name": "龙舌兰",
+        "unicode": "u9f99u820cu5170",
+        "index": 310,
+        "hex": "#99c5a6"
+    }
+}
