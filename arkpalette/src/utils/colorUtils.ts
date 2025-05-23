@@ -1,4 +1,3 @@
-import { Color } from 'color-namer';
 import operators from '../data/operators.json';
 
 // Type for operator color data
