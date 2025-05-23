@@ -25,6 +25,11 @@ export default function ColorInput({
     const prevColorRef = useRef(color);
     const isInitialMount = useRef(true);
     const isUserSelection = useRef(false);
+    const selectedColorRef = useRef<OperatorColor | null>(null);
+
+    useEffect(() => {
+        selectedColorRef.current = selectedColor;
+    }, [selectedColor]);
 
     useEffect(() => {
         if (isUserSelection.current) {
@@ -40,7 +45,7 @@ export default function ColorInput({
 
             if (isInitialMount.current ||
                 prevColorRef.current !== color ||
-                (useObtainedOnly && (!selectedColor || !obtainedOperators.some(op => op.unicode === selectedColor.unicode)))) {
+                (useObtainedOnly && (!selectedColorRef.current || !obtainedOperators.some(op => op.unicode === selectedColorRef.current?.unicode)))) {
                 if (nearest.length > 0) {
                     setSelectedColor(nearest[0]);
                     onNearestColorChange(index, nearest[0].hex, nearest[0]);

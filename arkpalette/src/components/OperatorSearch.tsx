@@ -8,6 +8,12 @@ interface OperatorSearchProps {
     onUseObtainedChange: (useObtained: boolean) => void;
 }
 
+interface OperatorData {
+    name: string;
+    unicode: string;
+    hex: string;
+}
+
 export default function OperatorSearch({ onObtainedChange, useObtainedOnly, onUseObtainedChange }: OperatorSearchProps) {
     const [searchTerm, setSearchTerm] = useState('');
     const [obtainedOperators, setObtainedOperators] = useState<OperatorColor[]>([]);
@@ -22,13 +28,13 @@ export default function OperatorSearch({ onObtainedChange, useObtainedOnly, onUs
             setObtainedOperators(parsed);
             onObtainedChange(parsed);
         }
-    }, []);
+    }, [onObtainedChange]);
 
     // Save obtained operators to localStorage whenever it changes
     useEffect(() => {
         localStorage.setItem('obtainedOperators', JSON.stringify(obtainedOperators));
         onObtainedChange(obtainedOperators);
-    }, [obtainedOperators]);
+    }, [obtainedOperators, onObtainedChange]);
 
     const handleSearch = (value: string) => {
         setSearchTerm(value);
@@ -37,11 +43,11 @@ export default function OperatorSearch({ onObtainedChange, useObtainedOnly, onUs
             return;
         }
 
-        const results = Object.values(operatorsData)
-            .filter((op: any) =>
+        const results = Object.values(operatorsData as Record<string, OperatorData>)
+            .filter((op) =>
                 op.name.toLowerCase().includes(value.toLowerCase())
             )
-            .map((op: any) => ({
+            .map((op) => ({
                 name: op.name,
                 unicode: op.unicode,
                 hex: op.hex
