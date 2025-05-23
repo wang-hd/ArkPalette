@@ -73,8 +73,17 @@ export function calculateColorDistance(color1: string, color2: string): number {
 }
 
 // Find the 5 nearest colors from the operator list
-export function findNearestColors(inputColor: string): OperatorColor[] {
-    const distances = operatorColors.map(op => ({
+export function findNearestColors(
+    inputColor: string,
+    obtainedOperators: OperatorColor[] = [],
+    useObtainedOnly: boolean = false
+): OperatorColor[] {
+    // Filter operators based on obtained list if useObtainedOnly is true
+    const availableOperators = useObtainedOnly
+        ? obtainedOperators
+        : operatorColors;
+
+    const distances = availableOperators.map(op => ({
         ...op,
         distance: calculateColorDistance(inputColor, op.hex)
     }));

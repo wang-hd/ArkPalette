@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import ColorInput from '@/components/ColorInput';
 import PixelArtRenderer from '@/components/PixelArtRenderer';
 import NavTabs from '@/components/NavTabs';
+import OperatorSearch from '@/components/OperatorSearch';
 import { PlusIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import { OperatorColor, findNearestColors } from '@/utils/colorUtils';
 import presets from '@/data/presets.json';
@@ -24,6 +25,8 @@ export default function Home() {
   const [nearestColors, setNearestColors] = useState<OperatorColor[]>([]);
   const [selectedPreset, setSelectedPreset] = useState<string>('');
   const [selectedTab, setSelectedTab] = useState<string>('passport');
+  const [obtainedOperators, setObtainedOperators] = useState<OperatorColor[]>([]);
+  const [useObtainedOnly, setUseObtainedOnly] = useState(false);
 
   useEffect(() => {
     // Select the first preset on page load
@@ -41,9 +44,11 @@ export default function Home() {
   };
 
   const handleNearestColorChange = (index: number, color: string, operator: OperatorColor) => {
-    const newNearestColors = [...nearestColors];
-    newNearestColors[index] = operator;
-    setNearestColors(newNearestColors);
+    setNearestColors(prevColors => {
+      const newColors = [...prevColors];
+      newColors[index] = operator;
+      return newColors;
+    });
   };
 
   const handleAddColor = () => {
@@ -104,10 +109,13 @@ export default function Home() {
           {colors.map((color, index) => (
             <div key={index} className="relative">
               <ColorInput
+                key={`${index}-${useObtainedOnly}`}
                 index={index}
                 color={color}
                 onColorChange={handleColorChange}
                 onNearestColorChange={handleNearestColorChange}
+                obtainedOperators={obtainedOperators}
+                useObtainedOnly={useObtainedOnly}
               />
               {index > 0 && (
                 <button
@@ -165,7 +173,11 @@ export default function Home() {
   const renderNewFunction = () => (
     <div className="bg-white rounded-lg shadow-md p-4 sm:p-6">
       <h2 className="text-xl font-semibold text-gray-800 mb-4">照片马赛克</h2>
-      <PhotoMosaic selectedOperators={nearestColors.filter(op => op.name)} />
+      <PhotoMosaic
+        selectedOperators={nearestColors.filter(op => op.name)}
+        obtainedOperators={obtainedOperators}
+        useObtainedOnly={useObtainedOnly}
+      />
     </div>
   );
 
@@ -183,6 +195,12 @@ export default function Home() {
             onTabChange={setSelectedTab}
           />
         </div>
+
+        <OperatorSearch
+          onObtainedChange={setObtainedOperators}
+          useObtainedOnly={useObtainedOnly}
+          onUseObtainedChange={setUseObtainedOnly}
+        />
 
         {selectedTab === 'passport' && renderPassportFunction()}
         {selectedTab === 'new-function' && renderNewFunction()}

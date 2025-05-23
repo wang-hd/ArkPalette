@@ -8,26 +8,49 @@ interface ColorInputProps {
     color: string;
     onColorChange: (index: number, color: string) => void;
     onNearestColorChange: (index: number, color: string, operator: OperatorColor) => void;
+    obtainedOperators: OperatorColor[];
+    useObtainedOnly: boolean;
 }
 
-export default function ColorInput({ index, color, onColorChange, onNearestColorChange }: ColorInputProps) {
+export default function ColorInput({
+    index,
+    color,
+    onColorChange,
+    onNearestColorChange,
+    obtainedOperators,
+    useObtainedOnly
+}: ColorInputProps) {
     const [nearestColors, setNearestColors] = useState<OperatorColor[]>([]);
     const [selectedColor, setSelectedColor] = useState<OperatorColor | null>(null);
     const prevColorRef = useRef(color);
     const isInitialMount = useRef(true);
+    const isUserSelection = useRef(false);
 
     useEffect(() => {
-        if (isInitialMount.current || prevColorRef.current !== color) {
-            const nearest = findNearestColors(color);
+        if (isUserSelection.current) {
+            isUserSelection.current = false;
+            return;
+        }
+
+        if (isInitialMount.current ||
+            prevColorRef.current !== color ||
+            useObtainedOnly) {
+            const nearest = findNearestColors(color, obtainedOperators, useObtainedOnly);
             setNearestColors(nearest);
-            if (nearest.length > 0 && (!selectedColor || selectedColor.hex !== nearest[0].hex)) {
-                setSelectedColor(nearest[0]);
-                onNearestColorChange(index, nearest[0].hex, nearest[0]);
+
+            if (isInitialMount.current ||
+                prevColorRef.current !== color ||
+                (useObtainedOnly && (!selectedColor || !obtainedOperators.some(op => op.unicode === selectedColor.unicode)))) {
+                if (nearest.length > 0) {
+                    setSelectedColor(nearest[0]);
+                    onNearestColorChange(index, nearest[0].hex, nearest[0]);
+                }
             }
+
             prevColorRef.current = color;
             isInitialMount.current = false;
         }
-    }, [color, index, onNearestColorChange, selectedColor]);
+    }, [color, index, onNearestColorChange, obtainedOperators, useObtainedOnly]);
 
     const handleColorChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const newColor = e.target.value;
@@ -37,8 +60,11 @@ export default function ColorInput({ index, color, onColorChange, onNearestColor
     };
 
     const handleNearestColorChange = (color: OperatorColor) => {
-        setSelectedColor(color);
-        onNearestColorChange(index, color.hex, color);
+        if (nearestColors.some(op => op.unicode === color.unicode)) {
+            isUserSelection.current = true;
+            setSelectedColor(color);
+            onNearestColorChange(index, color.hex, color);
+        }
     };
 
     return (

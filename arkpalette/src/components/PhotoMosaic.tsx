@@ -14,6 +14,8 @@ interface OperatorData {
 
 interface PhotoMosaicProps {
     selectedOperators: OperatorColor[];
+    obtainedOperators: OperatorColor[];
+    useObtainedOnly: boolean;
 }
 
 const RESOLUTIONS = [
@@ -24,14 +26,14 @@ const RESOLUTIONS = [
 
 const PREVIEW_SIZE = 400; // Fixed size for the preview
 
-export default function PhotoMosaic({ selectedOperators }: PhotoMosaicProps) {
+export default function PhotoMosaic({ selectedOperators, obtainedOperators, useObtainedOnly }: PhotoMosaicProps) {
     const [selectedResolution, setSelectedResolution] = useState(RESOLUTIONS[0]);
     const [mosaicData, setMosaicData] = useState<{ color: string; operator: OperatorColor }[][]>([]);
-    const [sourceImage, setSourceImage] = useState<string>('');
-    const [pixelUsage, setPixelUsage] = useState<{ [key: string]: number }>({});
+    const [sourceImage, setSourceImage] = useState<string | null>(null);
     const [imageDimensions, setImageDimensions] = useState<{ width: number; height: number } | null>(null);
     const [selectedGrid, setSelectedGrid] = useState<{ x: number; y: number } | null>(null);
-    const [nearestOperators, setNearestOperators] = useState<OperatorData[]>([]);
+    const [nearestOperators, setNearestOperators] = useState<OperatorColor[]>([]);
+    const [pixelUsage, setPixelUsage] = useState<{ [key: string]: number }>({});
     const fileInputRef = useRef<HTMLInputElement>(null);
 
     const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -148,6 +150,11 @@ export default function PhotoMosaic({ selectedOperators }: PhotoMosaicProps) {
         const mosaic: { color: string; operator: OperatorColor }[][] = [];
         const usage: { [key: string]: number } = {};
 
+        // Filter available operators based on obtained list
+        const availableOperators = useObtainedOnly
+            ? obtainedOperators
+            : Object.values(operatorsData as unknown as Record<string, OperatorData>);
+
         for (let y = 0; y < mosaicHeight; y++) {
             const row: { color: string; operator: OperatorColor }[] = [];
             for (let x = 0; x < mosaicWidth; x++) {
@@ -158,7 +165,7 @@ export default function PhotoMosaic({ selectedOperators }: PhotoMosaicProps) {
                 const color = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
 
                 // Find nearest operator color using HSV distance
-                const nearestOperator = Object.values(operatorsData as unknown as Record<string, OperatorData>)
+                const nearestOperator = availableOperators
                     .reduce((nearest, current) => {
                         const currentDistance = calculateColorDistance(color, current.hex);
                         const nearestDistance = calculateColorDistance(color, nearest.hex);
@@ -179,49 +186,46 @@ export default function PhotoMosaic({ selectedOperators }: PhotoMosaicProps) {
     const handleGridClick = (x: number, y: number, color: string) => {
         setSelectedGrid({ x, y });
 
-        // Find 5 nearest operators
-        const operators = Object.values(operatorsData as unknown as Record<string, OperatorData>);
-        const sortedOperators = operators
+        // Find 5 nearest operators from available operators
+        const availableOperators = useObtainedOnly
+            ? obtainedOperators
+            : Object.values(operatorsData as unknown as Record<string, OperatorData>)
+                .map(op => ({ name: op.name, hex: op.hex, unicode: op.unicode }));
+
+        const sortedOperators = availableOperators
             .map(op => ({
                 ...op,
                 distance: calculateColorDistance(color, op.hex)
             }))
             .sort((a, b) => a.distance - b.distance)
-            .slice(0, 5);
+            .slice(0, 5)
+            .map(({ name, hex, unicode }) => ({ name, hex, unicode }));
 
         setNearestOperators(sortedOperators);
     };
 
-    const handleOperatorSelect = (operator: OperatorData) => {
-        if (!selectedGrid) return;
+    const handleOperatorSelect = (operator: OperatorColor) => {
+        if (!selectedGrid || !mosaicData) return;
 
+        const { x, y } = selectedGrid;
         const newMosaicData = [...mosaicData];
-        const oldOperator = newMosaicData[selectedGrid.y][selectedGrid.x].operator;
+        const row = [...newMosaicData[y]];
 
-        // Update the grid with new operator
-        newMosaicData[selectedGrid.y][selectedGrid.x] = {
-            color: newMosaicData[selectedGrid.y][selectedGrid.x].color,
-            operator: { name: operator.name, hex: operator.hex, unicode: operator.unicode }
+        // Get the full operator data from operatorsData
+        const operatorData = (operatorsData as unknown as Record<string, OperatorData>)[operator.unicode];
+        if (!operatorData) return;
+
+        row[x] = {
+            color: row[x].color,
+            operator: {
+                name: operatorData.name,
+                hex: operatorData.hex,
+                unicode: operatorData.unicode
+            }
         };
 
-        // Update pixel usage statistics
-        const newPixelUsage = { ...pixelUsage };
-
-        // Decrease count for old operator
-        if (newPixelUsage[oldOperator.name] > 0) {
-            newPixelUsage[oldOperator.name]--;
-            // Remove operator from stats if count reaches 0
-            if (newPixelUsage[oldOperator.name] === 0) {
-                delete newPixelUsage[oldOperator.name];
-            }
-        }
-
-        // Increase count for new operator
-        newPixelUsage[operator.name] = (newPixelUsage[operator.name] || 0) + 1;
-
-        // Update state
+        newMosaicData[y] = row;
         setMosaicData(newMosaicData);
-        setPixelUsage(newPixelUsage);
         setSelectedGrid(null);
     };
 
