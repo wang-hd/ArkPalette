@@ -18,7 +18,7 @@ export default function OperatorImage({ selectedOperators }: OperatorImageProps)
 
     return (
         <div className="bg-white rounded-lg shadow-md p-6">
-            <h2 className="text-xl font-semibold text-gray-800 mb-4">Selected Operators</h2>
+            <h2 className="text-xl font-semibold text-gray-800 mb-4">通行证预览</h2>
             <div className="flex flex-wrap justify-center gap-4">
                 {selectedOperators.map((operator, index) => (
                     <div key={index} className="relative w-32 h-40 overflow-hidden">

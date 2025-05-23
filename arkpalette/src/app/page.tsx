@@ -74,22 +74,22 @@ export default function Home() {
     <main className="min-h-screen bg-gray-100 py-8">
       <div className="max-w-6xl mx-auto px-4">
         <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-          我有通行症：彩虹拼盘助手
+          我有通行症：通行证平铺助手
         </h1>
 
         <div className="space-y-8">
           <div>
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-xl font-semibold text-gray-800">Input Colors</h2>
+              <h2 className="text-xl font-semibold text-gray-800">选择颜色</h2>
               <div className="flex items-center gap-2">
-                <label htmlFor="preset" className="text-sm text-gray-700">Preset Color Palette:</label>
+                <label htmlFor="preset" className="text-sm text-gray-700">预设色盘:</label>
                 <select
                   id="preset"
                   className="bg-white border border-gray-300 rounded-md px-3 py-1 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   onChange={(e) => handlePresetChange(e.target.value)}
                   value={selectedPreset}
                 >
-                  <option value="" disabled className="text-gray-500">Select a preset</option>
+                  <option value="" disabled className="text-gray-500">选择</option>
                   {presets.presets.map((preset: Preset) => (
                     <option key={preset.name} value={preset.name} className="text-gray-900">
                       {preset.name}
@@ -129,7 +129,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold text-gray-800 mb-4">Color Preview</h2>
+            <h2 className="text-xl font-semibold text-gray-800 mb-4">颜色预览</h2>
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex">
                 {colors.map((color, index) => (
