@@ -25,7 +25,7 @@ export default function OperatorImage({ selectedOperators }: OperatorImageProps)
                         {!imageErrors[operator.unicode] ? (
                             <div className="relative w-full h-full">
                                 <Image
-                                    src={`/ArkPalette/txz/${operator.unicode}.jpg`}
+                                    src={`${process.env.NODE_ENV === 'production' ? '/ArkPalette' : ''}/txz/${operator.unicode}.jpg`}
                                     alt={operator.name}
                                     fill
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
