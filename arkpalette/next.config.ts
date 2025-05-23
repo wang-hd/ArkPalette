@@ -10,8 +10,8 @@ const nextConfig = {
       },
     ],
   },
-  basePath: '/ArkPalette',
-  assetPrefix: '/ArkPalette/',
+  basePath: process.env.NODE_ENV === 'production' ? '/ArkPalette' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/ArkPalette/' : '',
 }
 
 export default nextConfig;
