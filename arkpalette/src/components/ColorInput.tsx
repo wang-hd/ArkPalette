@@ -59,8 +59,9 @@ export default function ColorInput({
 
     const handleColorChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const newColor = e.target.value;
-        if (isValidHexColor(newColor)) {
-            onColorChange(index, newColor);
+        if (newColor === '' || /^#?[0-9A-Fa-f]{0,6}$/.test(newColor)) {
+            const formattedColor = newColor.startsWith('#') ? newColor : `#${newColor}`;
+            onColorChange(index, formattedColor);
         }
     };
 
@@ -89,8 +90,9 @@ export default function ColorInput({
                         type="text"
                         value={color}
                         onChange={handleColorChange}
-                        className="w-full px-2 py-1 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-2 py-1 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900"
                         placeholder="#000000"
+                        pattern="^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
                     />
                 </div>
             </div>

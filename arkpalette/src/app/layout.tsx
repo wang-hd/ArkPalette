@@ -16,10 +16,14 @@ export const metadata: Metadata = {
   title: "我有通行症",
   description: "通行证平铺助手",
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.ico', type: 'image/x-icon' }
+    ],
     shortcut: '/favicon.ico',
     apple: '/favicon.ico',
   },
+  manifest: '/favicon.ico',
 };
 
 export default function RootLayout({
