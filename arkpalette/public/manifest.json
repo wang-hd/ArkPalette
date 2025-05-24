@@ -1,0 +1,16 @@
+{
+    "name": "我有通行症",
+    "short_name": "通行症",
+    "description": "通行证平铺助手",
+    "start_url": "/ArkPalette",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/ArkPalette/favicon.ico",
+            "sizes": "any",
+            "type": "image/x-icon"
+        }
+    ]
+}

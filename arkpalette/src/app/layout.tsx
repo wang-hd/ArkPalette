@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     shortcut: '/ArkPalette/favicon.ico',
     apple: '/ArkPalette/favicon.ico',
   },
-  manifest: '/ArkPalette/favicon.ico',
+  manifest: '/ArkPalette/manifest.json',
 };
 
 export default function RootLayout({
