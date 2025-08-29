@@ -56,7 +56,7 @@ class ImageProcessor:
             b = parts[-1]
             
             # Filter out unwanted images - check entire filename
-            if any(term in name for term in ["精英二", "精二", "sp", "SP", "演职认证"]):
+            if any(term in filename for term in ["精英二", "精二", "sp", "SP", "演职认证"]):
                 continue
             
             # Extract numeric part from the last segment
